@@ -8,7 +8,7 @@ document.addEventListener('keydown', (e) => {
             `
             <div class="bob_window">
             <div class="bob_nav">
-            <img src="./penguin.png" alt="" class="bob_logo">
+            <img src="https://cdn.jsdelivr.net/gh/violaterz/bobdevjs/penguin.png" alt="" class="bob_logo">
             <p class="bob_title">BOBS HIDEOUT</p>
             
             <button class="bob_close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
@@ -126,7 +126,7 @@ document.addEventListener('keydown', (e) => {
 
             element_item.addEventListener('mouseover', () => {
                 element.style =
-                    'background: rgb(99, 180, 255); padding: 20px 20px; transition: 200ms;';
+                    'background: rgb(99, 180, 255); opacity: 1; transition: 200ms;';
             });
 
             element_item.addEventListener('mouseleave', () => {
