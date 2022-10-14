@@ -126,7 +126,7 @@ document.addEventListener('keydown', (e) => {
 
             element_item.addEventListener('mouseover', () => {
                 element.style =
-                    'background: rgb(99, 180, 255); opacity: 1; transition: 200ms;';
+                    'background: rgb(99, 180, 255); color: white; opacity: 1; transition: 200ms;';
             });
 
             element_item.addEventListener('mouseleave', () => {
